@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #cfe7f7;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+
+}
+
+.header .h1 {
+    flex-grow: 1;
+    margin-left: -50%;
+    text-align: center;
+}
+
+.header img {
+    width: 130px;
+    height: 50px;
+    margin-right: 40%;
+}
+
+.login-section {
+    margin-top: 100px;
+}
+
+form .form-control {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-width: 95%;
+    min-height: 35px;
+    /* border-radius: 10px; */
+    outline: none;
+    border: none;
+    padding: 5px;
+    background-color: #0000000e;
+}
+
+.login-section {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+}
+
+section {
+    display: grid;
+    place-content: center;
+    margin-bottom: 30px;
+    margin-top: -50px;
+}
+
+section p {
+    margin: 15px 0 15px 0;
+}
+
+.social-net {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.social-net i {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 15px;
+    color: black;
+    margin-bottom: 5%;
+}
+
+.social-net i:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.submit-button {
+    width: 25%;
+    padding: 6px;
+    display: block;
+    margin: 10px 0px 10px 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.multiple-choice {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+}
+
+.multiple-choice a {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.image {
+    text-align: center;
+}
+
+.login-section img {
+    width: 150px;
+    margin: auto;
+}
+
+.connexion {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: -0.3px;
+    letter-spacing: 5px;
+}
+
+.submit-button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.submit-button:active {
+    transform: scale(.9);
+    transition: 1s;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+input::placeholder {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.return-link {
+    color: black;
+}
+
+.progress-bar {
+    width: 0;
+    height: 2px;
+    background-color: #000000;
+    transition: width 0.5s ease;
+    margin-top: -10px;
+}
+
+input:focus+.progress-bar {
+    width: 97.5%;
+}
+
+#remember{
+    margin-top: 20px;
+}
